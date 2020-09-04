@@ -21,7 +21,7 @@ for linea in msgs:
     for palabra in palabras:
         msg_box[1].send_keys(palabra)
         msg_box[1].send_keys(Keys.RETURN)
-        time.sleep(0.5)
+        time.sleep(0.5) #delay between msgs
 
 
 # SI VAS A INICIARLO DESDE LINUX ABRELO CON CON EL CODIGO:
